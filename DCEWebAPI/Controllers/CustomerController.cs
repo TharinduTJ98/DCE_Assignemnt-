@@ -1,8 +1,6 @@
-﻿using DCEWebAPI.Business.CustomerBusiness;
-using DCEWebAPI.Business.Interface;
+﻿using DCEWebAPI.Business.Interface;
 using DCEWebAPI.Common.Models.Dtos;
 using DCEWebAPI.Common.Models.Entities;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DCEWebAPI.Controllers
