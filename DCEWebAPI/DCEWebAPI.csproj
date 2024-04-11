@@ -17,7 +17,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DCEWebAPI.DataContext\DCEWebAPI.DataContext.csproj" />
     <ProjectReference Include="..\DCEWeebAPI.Business\DCEWebAPI.Business.csproj" />
   </ItemGroup>
 

@@ -1237,27 +1237,14 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "DCEWebAPI.Common": "1.0.0",
-          "Microsoft.Data.SqlClient": "5.0.1"
-        },
-        "compile": {
-          "bin/placeholder/DCEWebAPI.DataAccess.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DCEWebAPI.DataAccess.dll": {}
-        }
-      },
-      "DCEWebAPI.DataContext/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "DCEWebAPI.Common": "1.0.0",
+          "Microsoft.Data.SqlClient": "5.0.1",
           "Microsoft.EntityFrameworkCore": "7.0.0"
         },
         "compile": {
-          "bin/placeholder/DCEWebAPI.DataContext.dll": {}
+          "bin/placeholder/DCEWebAPI.DataAccess.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DCEWebAPI.DataContext.dll": {}
+          "bin/placeholder/DCEWebAPI.DataAccess.dll": {}
         }
       }
     }
@@ -3843,17 +3830,11 @@
       "type": "project",
       "path": "../DCEWebAPI.DataAccess/DCEWebAPI.DataAccess.csproj",
       "msbuildProject": "../DCEWebAPI.DataAccess/DCEWebAPI.DataAccess.csproj"
-    },
-    "DCEWebAPI.DataContext/1.0.0": {
-      "type": "project",
-      "path": "../DCEWebAPI.DataContext/DCEWebAPI.DataContext.csproj",
-      "msbuildProject": "../DCEWebAPI.DataContext/DCEWebAPI.DataContext.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "DCEWebAPI.Business >= 1.0.0",
-      "DCEWebAPI.DataContext >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.12",
       "Microsoft.EntityFrameworkCore >= 7.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.0",
@@ -3890,9 +3871,6 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\tharinduj\\Desktop\\DEC doc\\DCEWebAPI\\DCEWebAPI.DataContext\\DCEWebAPI.DataContext.csproj": {
-              "projectPath": "C:\\Users\\tharinduj\\Desktop\\DEC doc\\DCEWebAPI\\DCEWebAPI.DataContext\\DCEWebAPI.DataContext.csproj"
-            },
             "C:\\Users\\tharinduj\\Desktop\\DEC doc\\DCEWebAPI\\DCEWeebAPI.Business\\DCEWebAPI.Business.csproj": {
               "projectPath": "C:\\Users\\tharinduj\\Desktop\\DEC doc\\DCEWebAPI\\DCEWeebAPI.Business\\DCEWebAPI.Business.csproj"
             }

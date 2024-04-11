@@ -9,7 +9,6 @@
       "DCEWebAPI/1.0.0": {
         "dependencies": {
           "DCEWebAPI.Business": "1.0.0",
-          "DCEWebAPI.DataContext": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "7.0.12",
           "Microsoft.EntityFrameworkCore": "7.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0",
@@ -636,19 +635,11 @@
       "DCEWebAPI.DataAccess/1.0.0": {
         "dependencies": {
           "DCEWebAPI.Common": "1.0.0",
-          "Microsoft.Data.SqlClient": "5.0.1"
-        },
-        "runtime": {
-          "DCEWebAPI.DataAccess.dll": {}
-        }
-      },
-      "DCEWebAPI.DataContext/1.0.0": {
-        "dependencies": {
-          "DCEWebAPI.Common": "1.0.0",
+          "Microsoft.Data.SqlClient": "5.0.1",
           "Microsoft.EntityFrameworkCore": "7.0.0"
         },
         "runtime": {
-          "DCEWebAPI.DataContext.dll": {}
+          "DCEWebAPI.DataAccess.dll": {}
         }
       }
     }
@@ -1167,11 +1158,6 @@
       "sha512": ""
     },
     "DCEWebAPI.DataAccess/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "DCEWebAPI.DataContext/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

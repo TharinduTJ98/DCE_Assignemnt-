@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DCEWebAPI.DataContext
 {
-    public class CustomerDbContext : DbContext
+    public class DatabaseContext : DbContext
     {
-        public CustomerDbContext(DbContextOptions options) : base(options)
+        public DatabaseContext(DbContextOptions options) : base(options)
         {
         }
 

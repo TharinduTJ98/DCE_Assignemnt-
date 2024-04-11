@@ -17,7 +17,7 @@ builder.Services.AddSwaggerGen();
 ConfigurationManager configuration = builder.Configuration;
 var connectionString = configuration.GetConnectionString("CustomerConnection");
 
-builder.Services.AddDbContext<CustomerDbContext>(options =>
+builder.Services.AddDbContext<DatabaseContext>(options =>
     options.UseSqlServer(connectionString));
 
 builder.Services.AddSingleton<ICustomerBusiness, CustomerBusiness>();
