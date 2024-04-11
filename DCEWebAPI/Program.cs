@@ -15,7 +15,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 ConfigurationManager configuration = builder.Configuration;
-var connectionString = configuration.GetConnectionString("CustomerConnection");
+var connectionString = configuration.GetConnectionString("DCEConnection");
 
 builder.Services.AddDbContext<DatabaseContext>(options =>
     options.UseSqlServer(connectionString));
